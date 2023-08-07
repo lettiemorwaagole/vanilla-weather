@@ -3,7 +3,44 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="src/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <title>Vanilla-Weather</title>
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <div class="weather-app">
+      <h1>New York</h1>
+      <ul>
+        <li>Monday 2300</li>
+        <li>clear</li>
+      </ul>
+      <div class="row">
+        <div class="col-6">
+          <img
+            src="https://assets.msn.com/weathermapdata/1/static/weather/Icons/taskbar_v10/Condition_Card/ClearNightV3.svg"
+            alt="clear"
+          />
+          12 C|F
+        </div>
+      <div class="col-6">
+        <ul>
+          <li>Precipatation=0%</li>
+          <li>Humidity=73%</li>
+          <li>Wind=2km/h</li>
+        </ul>
+      </div>
+    </div>
+      <small> 
+        <a href="https://github.com/lettiemorwaagole/vanilla-weather"
+        target="_blank">Open Source code</a> by Lettie
+       </small>
+    </div>
+    <script src="src/app.js"></script>
+  </body>
 </html>
